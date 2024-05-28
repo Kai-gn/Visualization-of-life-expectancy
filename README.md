@@ -31,6 +31,6 @@ This project utilizes:
 ## Getting Started
 To run this project locally:
 1. Clone the repository.
-2. Open the `index.html` file in a browser to view the visualization.
-3. Optional: Serve the project through a local server if modifications are made to the JavaScript files.
+2. Open the `index.html` file in a browser through a local server to view the visualization.
+
 
