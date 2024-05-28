@@ -1,28 +1,48 @@
-# life_in_weeks
-## Description
+# Visualization-of-life-expectancy
 
-This visualization shows your entire life in weeks through a grid made of little squares (a square equals one week) that are set in rows of 52 squares (equaling a year). The number of rows available is determined by the life expectancy given by the Swiss federal statistical office for the Swiss data set (2021), by the Social Security Administration for the American data set (2020), by the United Nations World Population Prospects for the Chadian and Russian data sets (2021). The data sets are relative to your age and gender (unfortunately for the Russian and Chadian data sets the life expectancies are only the one at birth due to lack of data taking into account the life expectancy at a given age).
-First, the user is invited to choose a country, then to give his gender and age, then the number of weeks that he’s already lived will appear in dark squares, the remaining time left to live (statistically) will appear with blank squares. On the left side of the gride a scale indicates the corresponding year of the row and the years left to live are also given in a bold text on top of the grid. This project aims to visualize time passing by on a weekly basis in one’s life and to comprehend how much time is left in a broader scale. The choice of the country allows to compare for a Swiss/American/Russian person his life expectancy with the country that has the worst life expectancy in the world (Chad).
+# Life in Weeks Visualization
 
-![im1](/captures/im1.png)
-![im2](/captures/im2.png)
+## Overview
+"Life in Weeks" is a dynamic web visualization that presents an individual's life span as a series of weeks, each represented by squares on a grid. Each row consists of 52 squares, symbolizing one year, allowing users to dynamically visually comprehend their life in weeks according to various global life expectancy data.
 
-## Tools used
+## Data Sources
+The visualization integrates life expectancy data from multiple authoritative sources:
+- Swiss life expectancy is taken from the Swiss Federal Statistical Office (2021 data).
+- U.S. life expectancy is sourced from the Social Security Administration (2020 data).
+- Life expectancy for Chad and Russia is based on the United Nations World Population Prospects (2021 data).
 
-- D3
-- Visual Studio Code
+Note: For Chad and Russia, the data reflects life expectancy at birth due to the unavailability of age-specific expectancy data.
 
-## Use
+## Features
+- **Country and Demographic Selection**: Users begin by selecting their country, gender, and entering their age.
+- **Weekly Life Grid**: The main visualization is a grid where each square represents one week of life.
+  - **Dark Squares**: Indicate weeks already lived.
+  - **Blank Squares**: Represent the remaining weeks, based on statistical life expectancy.
+- **Time Scale**: Alongside the grid, a scale marks the year corresponding to each row.
+- **Life Expectancy Display**: At the top of the grid, the years left, according to statistical data, are boldly highlighted.
+  
+This tool aims to offer a stark visualization of the passage of time, enhancing awareness of the finite nature of life through a weekly representation.
 
-1.	Open the files in Visual Studio Code.
-2.	Open index.html select all.
-3.	Right click and select open with live server. 
-4.	Follows the given instructions, enter your age and select your gender.
+## Screenshots
+Here are some screenshots to give you a preview of the "Life in Weeks" visualization in action:
 
-## Autor
+![Options](/imgs/img_01.png)
 
-This project was made by Bertrand Méroz and it’s part of the data visualization course (2023) given at the University of Lausanne by Isaac Pante.
+![Visualization](/imgs/img_01.png)
+*The main visualization grid showing the weeks lived and the weeks remaining.*
 
-## Acknowledgement
+![Demo](/imgs/gif_01.gif)
+*Demo gif*
 
-The idea of the gride came from Tim Urban. The author thanks Marco Oliosi for his help.
+These images provide a visual reference for what users can expect when they interact with the application.
+
+
+## Technologies
+This project utilizes:
+- **JavaScript**: For handling interactive elements and data manipulation.
+- **D3.js**: Employed to draw and manage the visualization based on data dynamically.
+
+## Getting Started
+To run this project locally:
+1. Clone the repository.
+2. Open the `index.html` file in a browser through a local server to view the visualization.
