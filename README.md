@@ -23,6 +23,20 @@ Note: For Chad and Russia, the data reflects life expectancy at birth due to the
   
 This tool aims to offer a stark visualization of the passage of time, enhancing awareness of the finite nature of life through a weekly representation.
 
+## Screenshots
+Here are some screenshots to give you a preview of the "Life in Weeks" visualization in action:
+
+![Options](/imgs/img_01.png)
+
+![Visualization](/imgs/img_01.png)
+*The main visualization grid showing the weeks lived and the weeks remaining.*
+
+![Demo](/imgs/gif_01.gif)
+*Demo gif*
+
+These images provide a visual reference for what users can expect when they interact with the application.
+
+
 ## Technologies
 This project utilizes:
 - **JavaScript**: For handling interactive elements and data manipulation.
