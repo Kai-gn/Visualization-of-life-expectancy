@@ -32,6 +32,7 @@ Here are some screenshots to give you a preview of the "Life in Weeks" visualiza
 *The main visualization grid showing the weeks lived and the weeks remaining.*
 
 ![Demo](/imgs/gif_01.gif?raw=true)
+
 *Demo gif*
 
 These images provide a visual reference for what users can expect when they interact with the application.
