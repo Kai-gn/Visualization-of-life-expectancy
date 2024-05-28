@@ -3,7 +3,7 @@
 # Life in Weeks Visualization
 
 ## Overview
-"Life in Weeks" is a dynamic web visualization that presents an individual's life span as a series of weeks, each represented by squares on a grid. Each row consists of 52 squares, symbolizing one year, allowing users to visually comprehend their life in weeks according to various global life expectancy data.
+"Life in Weeks" is a dynamic web visualization that presents an individual's life span as a series of weeks, each represented by squares on a grid. Each row consists of 52 squares, symbolizing one year, allowing users to dynamically visually comprehend their life in weeks according to various global life expectancy data.
 
 ## Data Sources
 The visualization integrates life expectancy data from multiple authoritative sources:
@@ -34,8 +34,3 @@ To run this project locally:
 2. Open the `index.html` file in a browser to view the visualization.
 3. Optional: Serve the project through a local server if modifications are made to the JavaScript files.
 
-## Contribution
-Contributions to improve the project are welcome. Interested contributors can fork the repository, make their changes, and submit a pull request.
-
-## License
-This project is released under the MIT License. See the `LICENSE` file for more details.
