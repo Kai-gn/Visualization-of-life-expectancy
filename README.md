@@ -29,6 +29,7 @@ Here are some screenshots to give you a preview of the "Life in Weeks" visualiza
 ![Options](/imgs/img_01.png)
 
 ![Visualization](/imgs/img_02.png)
+
 *The main visualization grid showing the weeks lived and the weeks remaining.*
 
 ![Demo](/imgs/gif_01.gif?raw=true)
